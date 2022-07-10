@@ -31,3 +31,6 @@ images:
 substitutions:
   _SERVICE_NAME: app
   _REGION: europe-north1
+
+ options:
+  logging: CLOUD_LOGGING_ONLY
