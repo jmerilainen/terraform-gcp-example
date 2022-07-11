@@ -27,5 +27,3 @@ RUN npm run build
 FROM pierrezemb/gostatic
 
 COPY --from=build /app/dist/ /srv/http/
-
-ENTRYPOINT ["/goStatic", "-port", "8080"]
