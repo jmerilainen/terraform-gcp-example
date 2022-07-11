@@ -26,4 +26,4 @@ RUN npm run build
 # Serve static site
 FROM pierrezemb/gostatic
 
-COPY --from=build /app/build/ /srv/http/
+COPY --from=build /app/dist/ /srv/http/
