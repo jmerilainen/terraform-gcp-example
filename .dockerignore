@@ -24,3 +24,11 @@ dist-ssr
 *.sw?
 
 Dockerfile
+
+# local .terraform directories
+.terraform
+.terraform*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tf
